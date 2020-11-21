@@ -9,10 +9,10 @@ export class Contact extends Component {
             <div className="col-md-8">
               <div className="row">
                 <div className="section-title">
-                  <h2>Get In Touch</h2>
+                  <h2>Bertanya di email</h2>
                   <p>
-                    Please fill out the form below to send us an email and we
-                    will get back to you as soon as possible.
+                    Harap isi semua yang diminta pada form di bawah ini.
+                    Terimakasih
                   </p>
                 </div>
                 <form name="sentMessage" id="contactForm" noValidate>
@@ -54,15 +54,15 @@ export class Contact extends Component {
                     <p className="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg">
-                    Send Message
+                  <button type="submit" className="btn btn-custom btn-lg" onClick={this.handleSubmit}>
+                    Kirim pesan
                   </button>
                 </form>
               </div>
             </div>
             <div className="col-md-3 col-md-offset-1 contact-info">
               <div className="contact-item">
-                <h3>Contact Info</h3>
+                <h3>Info Kontak</h3>
                 <p>
                   <span>
                     <i className="fa fa-map-marker"></i> Address
@@ -90,7 +90,7 @@ export class Contact extends Component {
             <div className="col-md-12">
               <div className="row">
                 <div className="social">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a
                         href={this.props.data ? this.props.data.facebook : "/"}
@@ -108,7 +108,7 @@ export class Contact extends Component {
                         <i className="fa fa-youtube"></i>
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -117,9 +117,9 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
-              <a href="http://www.templatewire.com" rel="nofollow">
-                TemplateWire
+              &copy; 2020 {" "}
+              <a href="http://pelayanandukabekasi.com" rel="nofollow">
+                pelayanandukabekasi.com
               </a>
             </p>
           </div>
