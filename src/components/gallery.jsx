@@ -18,15 +18,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/01-large.jpg"
+                      href="img/portfolio/about-1.jpeg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Mobil Ambulance</h4>
                       </div>
                       <img
-                        src="img/portfolio/01-small.jpg"
+                        src="img/portfolio/about-1-small.jpeg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -39,15 +39,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/02-large.jpg"
+                      href="img/portfolio/img-formalin.jpeg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>Formalin Jenazah</h4>
                       </div>
                       <img
-                        src="img/portfolio/02-small.jpg"
+                        src="img/portfolio/img-formalin-small.jpeg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -60,15 +60,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/03-large.jpg"
+                      href="img/portfolio/img-kargo.jpeg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Pengiriman Kargo</h4>
                       </div>
                       <img
-                        src="img/portfolio/03-small.jpg"
+                        src="img/portfolio/img-kargo-small.jpeg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -76,7 +76,7 @@ export class Gallery extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
+              {/* <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
@@ -201,7 +201,7 @@ export class Gallery extends Component {
                     </a>{" "}
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

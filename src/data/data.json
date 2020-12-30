@@ -15,32 +15,32 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
+            "icon": "fa fa-ambulance",
             "name": "Ambulance",
             "text": " Pelayanan dalam kota maupun luar kota tarif bias di liat pada lampiran sesuai dengan daerah tujuan"
         },
         {
-            "icon": "fa fa-cart-arrow-down",
+            "icon": "fa fa-bed",
             "name": "Pemakaman",
             "text": "Pemakaman biasanya tergantung dengan permintaan pihak keluarga yang berduka"
         },
         {
-            "icon": "fa fa-cloud-download",
+            "icon": "fa fa-archive",
             "name": "Peti Jenazah",
             "text": " Kami menyediakan peti berbagai macam kelas dengan harga harga kompetetif"
         },
         {
-            "icon": "fa fa-language",
+            "icon": "fa fa-truck",
             "name": "Cargo",
             "text": "Pengiriman Jenazah lewat Pesawat, Untuk Jenazah yang dikirim keluar kota"
         },
         {
-            "icon": "fa fa-plane",
+            "icon": "fa fa-feather",
             "name": "Kain Kafan",
             "text": "Kami juga menyediakan kain kafan dan siap melayani pemandian jenazah"
         },
         {
-            "icon": "fa fa-pie-chart",
+            "icon": "fa fa-bolt",
             "name": "Formalin Jenazah",
             "text": "Metode dalam pengwetan jenazah yang di gunakan oleh kami adalah konvensional"
         }
