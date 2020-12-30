@@ -118,7 +118,7 @@ export class Contact extends Component {
           <div className="container text-center">
             <p>
               &copy; 2020 {" "}
-              <a href="http://pelayanandukabekasi.com" rel="nofollow">
+              <a href="https://pelayanandukabekasi.com" rel="nofollow">
                 pelayanandukabekasi.com
               </a>
             </p>
